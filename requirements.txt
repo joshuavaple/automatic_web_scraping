@@ -1,0 +1,8 @@
+ipykernel == 6.15.0
+pandas ==1.5.0
+beautifulsoup4==4.11.2
+requests==2.28.2
+openpyxl==3.1.2
+python-certifi-win32==1.6.1
+azure-storage-blob==12.16.0
+XlsxWriter==3.1.1
