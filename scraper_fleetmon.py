@@ -89,7 +89,7 @@ def get_article_texts(article_urls: list):
 def run():
     file_name="fleetmon_scraping_results"
     max_page = 3
-    connection_string = "DefaultEndpointsProtocol=https;AccountName=joshualestorage;AccountKey=/JsrSWHnwBah6WzNaZKY1piSVFyK2i+eWvY2lAMVON9w/kIi8xf4LxDh+d+SQhiFgMJ7VZmmuMk7+ASta99p+w==;EndpointSuffix=core.windows.net"
+    connection_string = "DefaultEndpointsProtocol=https;AccountName=<your_storage_account>;AccountKey=<your_account_key>;EndpointSuffix=core.windows.net"
     container_name = 'webscraping'
     output_format = '.xlsx'
 
